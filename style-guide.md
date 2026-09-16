@@ -18,7 +18,7 @@ The designs were created to the following widths:
 - Gray 500: hsl(0, 0%, 42%)
 - Gray 950: hsl(0, 0%, 7%)
 
-## Typography
+## Typography 
 
 ### Body Copy
 

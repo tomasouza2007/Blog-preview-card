@@ -1,20 +1,73 @@
-*{
-padding: 0;
-margin: 0;
-box-sizing: border-box;
-font-family: Arial, Helvetica, sans-serif;
+@import url(https://fonts.google.com/specimen/Figtree);
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'figtree', system-ui, sans-serif;
 }
 
-body{
+body {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100vh;
+    background-color: hsl(47, 88%, 63%);
 }
 
-form{
-    width: 300px;
-    height: 400px;
-    background-color: aqua;
+form {
+    width: 380px;
+    height: 530px;
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 15px;
+    align-items: flex-start;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 8px 7px  black;
+    border: 1px solid black;
+}
+h1{
+    font-size: 25px;
+    font-weight: 800;
+    
+}
+p{
+    color: hsl(0, 0%, 42%);
+    font-size: 16px;
+}
+span{
+    font-size: 14px;
+    font-weight: 400;
+}
+.img1{
+    width: 360x;
+    border-radius: 11px;
+}
+.img2{
+    width: 40px;
+    margin-right: 5px;
+}
+.autor{
+    display:flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+button{
+    background-color: hsl(47, 88%, 63%);
+    border: none;
+    padding: 3px;
+    border-radius: 5px;
+    padding: 7px;
+    
+}
+strong{
+    margin: 15px;
+}
+
+.autor p{
+    color: black;
 }
